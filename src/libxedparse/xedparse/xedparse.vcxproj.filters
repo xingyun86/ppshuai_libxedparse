@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a56693d4-2760-4c5b-8d72-b51951b40c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bafd4044-9a4d-4ec2-a485-00c892ec471c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XED2">
+      <UniqueIdentifier>{d0698997-ad63-4a31-bde6-eddd991d7551}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BranchInst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MnemonicTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Operand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OperandMem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpSize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParseTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Prefix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Register.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Translator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEDParse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OperandSegSel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BranchInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MnemonicTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Operand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OperandMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OpSize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parsetest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Prefix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RegisterTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Translator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Validator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XEDParse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-address-width-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-agen.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-attribute-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-attributes.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-build-defines.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-category-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-chip-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-common-defs.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-common-hdrs.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-convert-table-init.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-decode.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-decoded-inst.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-decoded-inst-api.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-disas.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-encode.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-encoder-gen-defs.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-encoder-hl.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-encoder-iforms.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-error-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-exception-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-extension-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-flag-action-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-flag-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-flags.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-format-options.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-gen-table-defs.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-get-time.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-iclass-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-iform-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-iformfl-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-iform-map.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-ild.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-immdis.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-immed.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-init.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-init-pointer-names.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-inst.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-interface.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-isa-set.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-isa-set-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-machine-mode-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-nonterminal-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-accessors.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-action.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-action-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-convert-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-ctype-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-ctype-map.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-element-type-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-element-xtype-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-storage.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-type-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-values-interface.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-visibility-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-operand-width-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-portability.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-print-info.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-reg-class.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-reg-class-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-reg-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-reg-role-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-state.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-syntax-enum.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-types.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-util.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="xed2\include\xed-version.h">
+      <Filter>Header Files\XED2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OperandSegSel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
