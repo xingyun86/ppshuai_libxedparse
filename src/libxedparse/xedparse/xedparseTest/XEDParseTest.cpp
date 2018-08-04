@@ -51,10 +51,7 @@ void RunTests()
         parse.cip = test.Ip;
 
         strcpy_s(parse.instr, test.Asm);
-		if (i == 33)
-		{
-			int n = 0;
-		}
+
         // Try to assemble the string
         if(XEDParseAssemble(&parse) != XEDPARSE_OK)
         {

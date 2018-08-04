@@ -75,14 +75,14 @@ void InstructionToXed(Inst* Instruction, xed_state_t Mode, xed_encoder_instructi
     // Apply prefixes
     switch(Instruction->Prefix)
     {
-    //case PREFIX_LOCK:
-    //    xed_lock(XedInst);
-    //    break;
     case PREFIX_REP:
         xed_rep(XedInst);
         break;
     case PREFIX_REPNEZ:
         xed_repne(XedInst);
+        break;
+    case PREFIX_LOCK:
+        xed_lock(XedInst);
         break;
     }
 

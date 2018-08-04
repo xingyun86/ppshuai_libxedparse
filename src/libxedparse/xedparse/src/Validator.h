@@ -5,7 +5,7 @@
 struct IClassType
 {
     xed_iclass_enum_t   IClass;
-    const xed_inst_t*   Instructions[MAXCHAR];//32->MAXCHAR, modify ppshuai
+    const xed_inst_t*   Instructions[MAXCHAR];//32->MAXCHAR, modify by ppshuai
     int                 InstructionCount;
     unsigned int        MinimumOperands;
 };
